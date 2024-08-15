@@ -7,7 +7,8 @@ const Header = props => {
     const {history} = props
     Cookies.remove('jwt_token')
     history.replace('/login')
-    console.log("successfully logout")
+    console.log('successfully logout')
+    console.log('kams')
   }
 
   return (
